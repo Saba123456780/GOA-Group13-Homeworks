@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+}
+
+.second_p{
+    font-size:50px;
+    color:green;
+    background-color:red;
+}
+
+.third_p{
+    font-size:50px;
+    color: aqua; 
+}
+
+.fourth_p{
+    font-size: 50px;
+
+}
+
+.fifth_p{
+    font-size: 35px;
+}
+
+.sixth_p{
+    font-size: 40px;
+}
+
+.goa{
+    font-size: 60px;
+    background-color: navy;
+}
+
+.bb{
+    font-size: 70px;
+    background-color: navy;
+}
+
+.seventh_p{
+    font-size: 35px;
+    color: chartreuse;
+}
+
+.eight_p{
+    font-size: 35px;
+    color: goldenrod;
+}
+
+.ninth_p{
+    font-size: 80px;
+    color: blue;
+}
