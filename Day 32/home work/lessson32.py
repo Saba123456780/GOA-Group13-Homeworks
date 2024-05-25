@@ -18,8 +18,9 @@ Goa = "goa is the best"
 result = " "
 
 for i in range(len(Goa)):
-    if Goa[i] !=" ":
+    if Goa[i] != " ":
         result += Goa[i]
 
 
 print(result)
+
