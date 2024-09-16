@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ტექნიკების მეფე</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>ტექნიკების მეფე</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">მთავარი</a></li>
+                    <li><a href="#products">პროდუქტები</a></li>
+                    <li><a href="#contact">კონტაქტი</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <h2>Добро пожаловать!</h2>
+            <p>ჩვენს მაღაზიაში შეგიძლიათ მოიძიოთ საუკეთესო ტექნიკა, კამერები და მიკროფონები.</p>
+        </div>
+    </section>
+
+    <section id="products">
+        <div class="container">
+            <h2>პროდუქტები</h2>
+            <div class="product">
+                <img src="camera.jpg" alt="კამერა">
+                <h3>კამერა</h3>
+                <p>თქვენი იდეალური კამერა ხარისხიანი სურათებისთვის.</p>
+                <button>ყიდვა</button>
+            </div>
+            <div class="product">
+                <img src="microphone.jpg" alt="მიკროფონი">
+                <h3>მიკროფონი</h3>
+                <p>წარმატებული ჩანაწერებისთვის პროფესიონალური მიკროფონი.</p>
+                <button>ყიდვა</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>კონტაქტი</h2>
+            <form>
+                <label for="name">სახელი:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">ელ. ფოსტა:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">წერილი:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">გაგზავნა</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 ტექნიკების მეფე. ყველა უფლება დაცულია.</p>
+        </div>
+    </footer>
+</body>
+</html>
